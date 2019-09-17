@@ -1,20 +1,24 @@
-        body {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif font-size: 20px;
-            line-height: 35px;
-            color: blueviolet;
-            margin: 10px, auto;
-        }
-        
-        a:hover {
-            background-color: blue;
-            color: white;
-        }
-        
-        a:active {
-            background-color: yellow;
-            color: whitesmoke;
-        }
-        
-        a:visited {
-            background: purple;
-        }
+            body {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif font-size: 20px;
+                line-height: 35px;
+                color: blueviolet;
+                margin: 10px, auto;
+            }
+            
+            a:hover {
+                background-color: blue;
+                color: white;
+            }
+            
+            a:active {
+                background-color: yellow;
+                color: whitesmoke;
+            }
+            
+            a:visited {
+                background: purple;
+            }
+            
+            @media only screen and (max-width: 980px) {
+                width: 980px, 768px, 640px;
+            }
