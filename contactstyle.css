@@ -19,6 +19,6 @@
                 background: purple;
             }
             
-            @media only screen and (max-width: 980px) {
-                width: 980px, 768px, 640px;
+            @media only screen and (max-width: 640px) {
+                width: 100%;
             }

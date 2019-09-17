@@ -1,34 +1,28 @@
-        /* For desktop: */
-    
-    .col-1,
-    .col-3,
-    .col-5 {
-        width: 50%;
-        float: left;
-    }
-    
-    .col-2,
-    .col-4,
-    .col-6 {
-        width: 50%;
-        float: right;
-    }
-    
-    a:hover {
-        background-color: blue;
-        color: white;
-    }
-    
-    a:active {
-        background-color: yellow;
-        color: whitesmoke;
-    }
-    
-    a:visited {
-        background: purple;
-    }
-    
-    @media only screen and (max-width: 980px) {
-        [class*="col-"] {
-            width: 980px, 768px, 640px;
-        }
+                                                /* For desktop: */
+                                    
+                                    a:hover {
+                                        background-color: blue;
+                                        color: white;
+                                    }
+                                    
+                                    a:active {
+                                        background-color: yellow;
+                                        color: whitesmoke;
+                                    }
+                                    
+                                    a:visited {
+                                        background: purple;
+                                    }
+                                    
+                                    @media only screen and (max-width: 640px) {
+                                        [class*="col-"] {
+                                            width: 100%;
+                                        }
+                                        @media only screen and (max-width: 768px) {
+                                            [class*="col-"] {
+                                                width: 100%;
+                                            }
+                                            @media only screen and (max-width: 980px) {
+                                                [class*="col-"] {
+                                                    width: 100%;
+                                                }
